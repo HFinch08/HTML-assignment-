@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: rgb(216, 239, 247);
+        }
+        h2, h3 {
+            text-align: center;
+        }
+        h4, h5, h6 {
+            font-style: italic;
+        }
+        p {
+            text-align: justify;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        nav ol {
+            list-style-type: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(66, 65, 65);
+        }
+        nav a:hover {
+            color: rgb(201, 201, 252);
+        }
+        .food.description h5, .food.description p {
+            text-align: left;
+        }
+    </style>
+    <title>Week 2 website assignment</title>
+</head>
+<body>
+    <nav>
+        <ol>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#menu">MENU</a></li> 
+        </ol>
+    </nav>
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to this amazing website. Be ready to have a life changing experience. 
+            Be ready to journey through technology, nature and food. This aspects of life form the very foundation in which our societies exist today.
+            It is amaxing to have you as an audience. Buckle up and enjor the experience.</p>
+        <img src="C:\Users\Sammy\Desktop\PLP\technology.png" alt="A woman wearing a robotic mask" style="max-width: 100%">
+    </section>
+    <section id="GALLERY">
+        <h3>GALLERY</h3>
+        <p>A grid of linked images relating to nature</p>
+        <img src="C:\Users\Sammy\Desktop\PLP\a_beautiful_forest.jpg" alt="A beautiful forest" style="max-width: 33%;">
+        <img src="C:\Users\Sammy\Desktop\PLP\waterfall.jpg" alt="A beautiful waterfall" style="max-width: 33%;">
+        <img src="C:\Users\Sammy\Desktop\PLP\a_beautiful_sunrise.jpg" alt="Sunrise in the mountains" style="max-width: 33%;">
+    </section>
+    <section id="menu">
+        <h4>Menu</h4>
+        <p>Here is a list of foods that we provide</p>
+        <div class="food item">
+            <a href="https://www.carlsjr.com/" target="_blank">
+                <img src="C:\Users\Sammy\Desktop\PLP\burgers.jpg" alt="Double cheese burgers" height="320px" width="320px">
+            </a> 
+            <div class="food description">
+                <h5>Burgers</h5>
+                <p>Have the juiciest double cheese burgers in town.</p>
+            </div>
+        </div>
+        <div class="food item">
+            <a href="https://www.webstaurantstore.com/article/801/bread-types.html" target="_blank">
+                <img src="C:\Users\Sammy\Desktop\PLP\bread.jpg" alt="Different kinds of bread" height="320px" width="320px">
+            </a> 
+            <div class="food description">
+                <h5>Bread</h5>
+                <p>Find all kinds of bread available in the country.</p>
+            </div>
+        </div>
+        <div class="food item">
+            <a href="https://pasta.com/" target="_blank">
+                <img src="C:\Users\Sammy\Desktop\PLP\pasta.jpg" alt="Different kinds of pasta" height="320px" width="320px">
+            </a> 
+            <div class="food description">
+                <h5>Pasta</h5>
+                <p>Aldente pasta made with love.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
